@@ -5,6 +5,7 @@
 // create .gitignore
 // go to gitHub create new repository
 // CryptApp: git init , git add . , git commit -m "" , git push -u .....  ,
+// npm node server.js (browser: http://localhost:80)
 
 
 const express = require('express')
@@ -13,4 +14,4 @@ const port = 80
 
 app.use(express.static('frontend/dist')) // path to dist
 
-app.listen(port, () => console.log('Server has been startednon port 80 ...'))
+app.listen(port, () => console.log('Server has been startedn on port 80 ...'))
