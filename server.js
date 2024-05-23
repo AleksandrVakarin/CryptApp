@@ -2,6 +2,10 @@
 // npm install express
 // cd frontend (go to frontend): npm run build
 // cd..(go to CryptApp): node server.js
+// create .gitignore
+// go to gitHub create new repository
+// CryptApp: git init , git add . , git commit -m "" , git push -u .....  ,
+
 
 const express = require('express')
 const app = express()
